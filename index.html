@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1d1d22">
+<title>Editor de PDF</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icones/icone-192.png">
+<link rel="apple-touch-icon" href="icones/icone-192.png">
+<style>
+:root{--papel:#f4f1ea;--tinta:#1d1d22;--suave:#6b6870;--lapis:#e5482b;--linha:#d9d4c8;--folha:#fff}
+@media (prefers-color-scheme:dark){:root{--papel:#18181c;--tinta:#efece6;--suave:#a19ea6;--linha:#34333a;--folha:#fff}}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--papel);color:var(--tinta);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:clip}
+button,input,textarea{font:inherit;color:inherit}
+.topo{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px max(4vw,12px);background:var(--tinta);color:var(--papel)}
+.topo h1{font-size:18px;margin:0 auto 0 0;letter-spacing:-.01em}
+.btn{min-height:44px;padding:0 16px;border-radius:10px;border:1px solid var(--linha);background:var(--folha);color:#1d1d22;cursor:pointer;font-weight:600}
+.btn.forte{background:var(--lapis);border-color:var(--lapis);color:#fff}
+.btn:disabled{opacity:.45;cursor:default}
+.btn:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--lapis);outline-offset:2px}
+.barra{display:none;gap:8px;flex-wrap:wrap;padding:10px max(4vw,12px);border-bottom:1px solid var(--linha);background:var(--papel)}
+.barra.on{display:flex}
+.barra input{flex:1 1 140px;min-height:44px;padding:0 12px;border:1px solid var(--linha);border-radius:10px;background:var(--folha);color:#1d1d22;font-size:16px}
+.vazio{max-width:560px;margin:12vh auto;padding:0 20px;text-align:center}
+.vazio h2{font-size:clamp(28px,6vw,40px);line-height:1.08;margin:0 0 12px;text-wrap:balance}
+.vazio p{color:var(--suave);margin:0 0 24px}
+.folhas{display:grid;gap:18px;padding:18px max(3vw,8px) 120px;justify-items:center}
+.pagina{position:relative;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.12),0 8px 24px rgba(0,0,0,.08)}
+.pagina canvas{display:block}
+.camada{position:absolute;inset:0}
+.trecho{position:absolute;border-radius:2px;cursor:text}
+.trecho:hover,.trecho:focus-visible{outline:1.5px solid rgba(229,72,43,.7);background:rgba(229,72,43,.08)}
+.trecho.editado{outline:1.5px dashed var(--lapis)}
+.dica{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--tinta);color:var(--papel);padding:10px 16px;border-radius:999px;font-size:14px;max-width:92vw;opacity:0;transition:opacity .2s;pointer-events:none;z-index:40}
+.dica.on{opacity:1}
+.fundo{position:fixed;inset:0;background:rgba(0,0,0,.4);display:none;z-index:30}
+.fundo.on{display:block}
+.folha-edicao{position:fixed;left:0;right:0;bottom:0;z-index:31;background:var(--papel);border-radius:16px 16px 0 0;padding:18px max(4vw,16px) calc(18px + env(safe-area-inset-bottom));transform:translateY(105%);transition:transform .2s;max-width:720px;margin:0 auto}
+.folha-edicao.on{transform:none}
+.folha-edicao textarea{width:100%;min-height:88px;padding:10px 12px;border:1px solid var(--linha);border-radius:10px;background:var(--folha);color:#1d1d22;font-size:16px;resize:vertical}
+.info{font-size:13px;color:var(--suave);margin:8px 0 14px}
+.acoes{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.carregando{color:var(--suave);text-align:center;padding:24px}
+@media (prefers-reduced-motion:reduce){.folha-edicao,.dica{transition:none}}
+</style>
+</head>
+<body>
+<header class="topo">
+  <h1>Editor de PDF</h1>
+  <button class="btn" id="bAbrir">Abrir PDF</button>
+  <button class="btn" id="bTrocar" disabled>Trocar texto</button>
+  <button class="btn forte" id="bSalvar" disabled>Salvar</button>
+  <input type="file" id="arquivo" accept="application/pdf,.pdf" hidden>
+</header>
+
+<div class="barra" id="barraTrocar">
+  <input id="tAntigo" placeholder="Texto atual" autocomplete="off">
+  <input id="tNovo" placeholder="Texto novo" autocomplete="off">
+  <button class="btn forte" id="bTrocarTudo">Trocar em tudo</button>
+</div>
+
+<main>
+  <section class="vazio" id="vazio">
+    <h2>Toque no texto do PDF e escreva por cima, com a mesma fonte</h2>
+    <p>Abra um PDF, toque em qualquer trecho para editar e salve. O arquivo não sai do seu celular.</p>
+    <button class="btn forte" id="bAbrir2">Abrir PDF</button>
+  </section>
+  <div class="folhas" id="folhas"></div>
+</main>
+
+<div class="fundo" id="fundo"></div>
+<section class="folha-edicao" id="edicao" aria-label="Editar trecho">
+  <textarea id="tEdicao" rows="3"></textarea>
+  <div class="info" id="infoFonte"></div>
+  <div class="acoes">
+    <button class="btn" id="bDesfazer">Desfazer</button>
+    <button class="btn" id="bCancelar">Cancelar</button>
+    <button class="btn forte" id="bAplicar">Aplicar</button>
+  </div>
+</section>
+<div class="dica" id="dica"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+<script src="https://unpkg.com/@pdf-lib/fontkit@1.1.1/dist/fontkit.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

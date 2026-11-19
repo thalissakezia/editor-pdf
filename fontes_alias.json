@@ -1,0 +1,331 @@
+{
+  "_comentario": "Fonte original -> fontes com as mesmas medidas ou muito parecidas, em ordem de preferencia. Os nomes podem ter espacos e maiusculas, o script normaliza.",
+  "Arial": [
+    "Liberation Sans",
+    "Arimo",
+    "Helvetica",
+    "Helvetica Neue",
+    "Nimbus Sans",
+    "Nimbus Sans L",
+    "TeX Gyre Heros",
+    "FreeSans",
+    "DejaVu Sans"
+  ],
+  "Helvetica": [
+    "Arial",
+    "Liberation Sans",
+    "Arimo",
+    "Nimbus Sans",
+    "Nimbus Sans L",
+    "TeX Gyre Heros",
+    "Helvetica Neue",
+    "FreeSans"
+  ],
+  "Helvetica Neue": [
+    "Helvetica",
+    "Arial",
+    "Liberation Sans",
+    "Arimo",
+    "Nimbus Sans",
+    "Inter"
+  ],
+  "Arial Narrow": [
+    "Liberation Sans Narrow",
+    "Nimbus Sans Narrow",
+    "Arial",
+    "TeX Gyre Heros Cn"
+  ],
+  "Arial Black": [
+    "Arial",
+    "Liberation Sans"
+  ],
+  "Arial Unicode MS": [
+    "Arial",
+    "Noto Sans",
+    "DejaVu Sans"
+  ],
+  "Times New Roman": [
+    "Liberation Serif",
+    "Tinos",
+    "Times",
+    "Nimbus Roman",
+    "Nimbus Roman No9 L",
+    "TeX Gyre Termes",
+    "FreeSerif",
+    "DejaVu Serif"
+  ],
+  "Times": [
+    "Times New Roman",
+    "Liberation Serif",
+    "Tinos",
+    "Nimbus Roman",
+    "TeX Gyre Termes",
+    "FreeSerif"
+  ],
+  "Courier New": [
+    "Liberation Mono",
+    "Cousine",
+    "Courier",
+    "Nimbus Mono PS",
+    "Nimbus Mono L",
+    "TeX Gyre Cursor",
+    "FreeMono",
+    "DejaVu Sans Mono"
+  ],
+  "Courier": [
+    "Courier New",
+    "Liberation Mono",
+    "Cousine",
+    "Nimbus Mono PS",
+    "TeX Gyre Cursor",
+    "FreeMono"
+  ],
+  "Consolas": [
+    "Inconsolata",
+    "DejaVu Sans Mono",
+    "Liberation Mono",
+    "Courier New"
+  ],
+  "Calibri": [
+    "Carlito",
+    "Open Sans",
+    "Arial"
+  ],
+  "Cambria": [
+    "Caladea",
+    "Georgia",
+    "Times New Roman"
+  ],
+  "Georgia": [
+    "Gelasio",
+    "Times New Roman",
+    "Liberation Serif"
+  ],
+  "Verdana": [
+    "DejaVu Sans",
+    "Bitstream Vera Sans",
+    "Arial"
+  ],
+  "Tahoma": [
+    "DejaVu Sans",
+    "Verdana",
+    "Arial"
+  ],
+  "Segoe UI": [
+    "Open Sans",
+    "Noto Sans",
+    "Selawik",
+    "Arial"
+  ],
+  "Trebuchet MS": [
+    "Fira Sans",
+    "Ubuntu",
+    "Arial"
+  ],
+  "Century Gothic": [
+    "URW Gothic",
+    "TeX Gyre Adventor",
+    "Avant Garde",
+    "Questrial"
+  ],
+  "Avant Garde": [
+    "URW Gothic",
+    "TeX Gyre Adventor",
+    "Century Gothic"
+  ],
+  "Bookman Old Style": [
+    "URW Bookman",
+    "TeX Gyre Bonum",
+    "Bookman"
+  ],
+  "Bookman": [
+    "URW Bookman",
+    "TeX Gyre Bonum",
+    "Bookman Old Style"
+  ],
+  "Century Schoolbook": [
+    "C059",
+    "TeX Gyre Schola",
+    "New Century Schoolbook"
+  ],
+  "New Century Schoolbook": [
+    "C059",
+    "TeX Gyre Schola",
+    "Century Schoolbook"
+  ],
+  "Palatino": [
+    "Palatino Linotype",
+    "P052",
+    "URW Palladio L",
+    "TeX Gyre Pagella",
+    "Book Antiqua"
+  ],
+  "Palatino Linotype": [
+    "Palatino",
+    "P052",
+    "TeX Gyre Pagella",
+    "Book Antiqua"
+  ],
+  "Book Antiqua": [
+    "Palatino Linotype",
+    "P052",
+    "TeX Gyre Pagella"
+  ],
+  "Garamond": [
+    "EB Garamond",
+    "Cormorant Garamond",
+    "Adobe Garamond Pro",
+    "Crimson Text",
+    "TeX Gyre Pagella"
+  ],
+  "Zapf Chancery": [
+    "Z003",
+    "TeX Gyre Chorus"
+  ],
+  "Comic Sans MS": [
+    "Comic Neue",
+    "Comic Relief"
+  ],
+  "Gill Sans": [
+    "Gill Sans MT",
+    "Cabin",
+    "Lato",
+    "Fira Sans"
+  ],
+  "Gill Sans MT": [
+    "Gill Sans",
+    "Cabin",
+    "Lato",
+    "Fira Sans"
+  ],
+  "Futura": [
+    "Jost",
+    "Futura PT",
+    "Century Gothic",
+    "Poppins",
+    "TeX Gyre Adventor"
+  ],
+  "Frutiger": [
+    "Hind",
+    "Myriad Pro",
+    "Open Sans",
+    "Fira Sans",
+    "Source Sans 3"
+  ],
+  "Myriad Pro": [
+    "PT Sans",
+    "Source Sans 3",
+    "Source Sans Pro",
+    "Open Sans"
+  ],
+  "Minion Pro": [
+    "Crimson Text",
+    "Crimson Pro",
+    "Source Serif 4",
+    "Times New Roman"
+  ],
+  "Franklin Gothic": [
+    "Libre Franklin",
+    "Franklin Gothic Medium",
+    "Arial",
+    "Fira Sans"
+  ],
+  "Aptos": [
+    "Inter",
+    "Open Sans",
+    "Calibri",
+    "Carlito"
+  ],
+  "Candara": [
+    "Open Sans",
+    "Calibri",
+    "Carlito"
+  ],
+  "Corbel": [
+    "Open Sans",
+    "Calibri",
+    "Carlito"
+  ],
+  "Constantia": [
+    "Georgia",
+    "Gelasio",
+    "Cambria",
+    "Caladea"
+  ],
+  "Lucida Sans": [
+    "Lucida Sans Unicode",
+    "DejaVu Sans",
+    "Verdana"
+  ],
+  "Lucida Console": [
+    "DejaVu Sans Mono",
+    "Liberation Mono",
+    "Courier New"
+  ],
+  "Symbol": [
+    "Standard Symbols PS",
+    "Symbol Neu"
+  ],
+  "ZapfDingbats": [
+    "D050000L",
+    "Dingbats"
+  ],
+  "Source Sans Pro": [
+    "Source Sans 3",
+    "Open Sans"
+  ],
+  "Source Serif Pro": [
+    "Source Serif 4",
+    "Times New Roman"
+  ],
+  "Roboto": [
+    "Roboto Flex",
+    "Arimo",
+    "Arial"
+  ],
+  "Open Sans": [
+    "Noto Sans",
+    "Arial"
+  ],
+  "Lato": [
+    "Carlito",
+    "Open Sans"
+  ],
+  "Montserrat": [
+    "Poppins",
+    "Raleway"
+  ],
+  "Inter": [
+    "Arial",
+    "Helvetica"
+  ],
+  "Noto Sans": [
+    "Open Sans",
+    "DejaVu Sans"
+  ],
+  "DejaVu Sans": [
+    "Bitstream Vera Sans",
+    "Verdana"
+  ],
+  "Helvetica Condensed": [
+    "TeX Gyre Heros Cn",
+    "Liberation Sans Narrow"
+  ],
+  "Avenir": [
+    "Poppins",
+    "Montserrat",
+    "Inter"
+  ],
+  "Proxima Nova": [
+    "Montserrat",
+    "Inter"
+  ],
+  "Baskerville": [
+    "Crimson Text",
+    "Liberation Serif"
+  ],
+  "Bodoni": [
+    "Crimson Text",
+    "Liberation Serif"
+  ]
+}

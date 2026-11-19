@@ -1,0 +1,1212 @@
+[
+{
+"familia": "caladea",
+"nome": "Caladea",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/caladea/Caladea-Regular.ttf"
+},
+{
+"familia": "caladea",
+"nome": "Caladea",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/caladea/Caladea-Italic.ttf"
+},
+{
+"familia": "caladea",
+"nome": "Caladea",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/caladea/Caladea-Bold.ttf"
+},
+{
+"familia": "caladea",
+"nome": "Caladea",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/caladea/Caladea-BoldItalic.ttf"
+},
+{
+"familia": "carlito",
+"nome": "Carlito",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/carlito/Carlito-Regular.ttf"
+},
+{
+"familia": "carlito",
+"nome": "Carlito",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/carlito/Carlito-Italic.ttf"
+},
+{
+"familia": "carlito",
+"nome": "Carlito",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/carlito/Carlito-Bold.ttf"
+},
+{
+"familia": "carlito",
+"nome": "Carlito",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/carlito/Carlito-BoldItalic.ttf"
+},
+{
+"familia": "comicrelief",
+"nome": "Comic Relief",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/comicrelief/ComicRelief-Regular.ttf"
+},
+{
+"familia": "comicrelief",
+"nome": "Comic Relief",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/comicrelief/ComicRelief-Bold.ttf"
+},
+{
+"familia": "crimsontext",
+"nome": "Crimson Text",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/crimsontext/CrimsonText-Regular.ttf"
+},
+{
+"familia": "crimsontext",
+"nome": "Crimson Text",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/crimsontext/CrimsonText-Italic.ttf"
+},
+{
+"familia": "crimsontext",
+"nome": "Crimson Text",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/crimsontext/CrimsonText-Bold.ttf"
+},
+{
+"familia": "crimsontext",
+"nome": "Crimson Text",
+"estilo": "semibold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 600,
+"arquivo": "fontes/crimsontext/CrimsonText-SemiBold.ttf"
+},
+{
+"familia": "crimsontext",
+"nome": "Crimson Text",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/crimsontext/CrimsonText-BoldItalic.ttf"
+},
+{
+"familia": "crimsontext",
+"nome": "Crimson Text",
+"estilo": "semibold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 600,
+"arquivo": "fontes/crimsontext/CrimsonText-SemiBoldItalic.ttf"
+},
+{
+"familia": "dejavusans",
+"nome": "DejaVu Sans",
+"estilo": "book",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/dejavu/DejaVuSans.ttf"
+},
+{
+"familia": "dejavusans",
+"nome": "DejaVu Sans",
+"estilo": "oblique",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/dejavu/DejaVuSans-Oblique.ttf"
+},
+{
+"familia": "dejavusans",
+"nome": "DejaVu Sans",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/dejavu/DejaVuSans-Bold.ttf"
+},
+{
+"familia": "dejavusans",
+"nome": "DejaVu Sans",
+"estilo": "bold oblique",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/dejavu/DejaVuSans-BoldOblique.ttf"
+},
+{
+"familia": "dejavusansmono",
+"nome": "DejaVu Sans Mono",
+"estilo": "book",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/dejavu/DejaVuSansMono.ttf"
+},
+{
+"familia": "dejavusansmono",
+"nome": "DejaVu Sans Mono",
+"estilo": "oblique",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/dejavu/DejaVuSansMono-Oblique.ttf"
+},
+{
+"familia": "dejavusansmono",
+"nome": "DejaVu Sans Mono",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/dejavu/DejaVuSansMono-Bold.ttf"
+},
+{
+"familia": "dejavusansmono",
+"nome": "DejaVu Sans Mono",
+"estilo": "bold oblique",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/dejavu/DejaVuSansMono-BoldOblique.ttf"
+},
+{
+"familia": "dejavuserif",
+"nome": "DejaVu Serif",
+"estilo": "book",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/dejavu/DejaVuSerif.ttf"
+},
+{
+"familia": "dejavuserif",
+"nome": "DejaVu Serif",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/dejavu/DejaVuSerif-Italic.ttf"
+},
+{
+"familia": "dejavuserif",
+"nome": "DejaVu Serif",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/dejavu/DejaVuSerif-Bold.ttf"
+},
+{
+"familia": "dejavuserif",
+"nome": "DejaVu Serif",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/dejavu/DejaVuSerif-BoldItalic.ttf"
+},
+{
+"familia": "firasans",
+"nome": "Fira Sans",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/firasans/FiraSans-Regular.ttf"
+},
+{
+"familia": "firasans",
+"nome": "Fira Sans",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/firasans/FiraSans-Italic.ttf"
+},
+{
+"familia": "firasans",
+"nome": "Fira Sans",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/firasans/FiraSans-Bold.ttf"
+},
+{
+"familia": "firasans",
+"nome": "Fira Sans",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/firasans/FiraSans-BoldItalic.ttf"
+},
+{
+"familia": "freemono",
+"nome": "FreeMono",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/freefont/FreeMono.ttf"
+},
+{
+"familia": "freemono",
+"nome": "FreeMono",
+"estilo": "oblique",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/freefont/FreeMonoOblique.ttf"
+},
+{
+"familia": "freemono",
+"nome": "FreeMono",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/freefont/FreeMonoBold.ttf"
+},
+{
+"familia": "freemono",
+"nome": "FreeMono",
+"estilo": "bold oblique",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/freefont/FreeMonoBoldOblique.ttf"
+},
+{
+"familia": "freesans",
+"nome": "FreeSans",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/freefont/FreeSans.ttf"
+},
+{
+"familia": "freesans",
+"nome": "FreeSans",
+"estilo": "oblique",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/freefont/FreeSansOblique.ttf"
+},
+{
+"familia": "freesans",
+"nome": "FreeSans",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 600,
+"arquivo": "fontes/freefont/FreeSansBold.ttf"
+},
+{
+"familia": "freesans",
+"nome": "FreeSans",
+"estilo": "bold oblique",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 600,
+"arquivo": "fontes/freefont/FreeSansBoldOblique.ttf"
+},
+{
+"familia": "freeserif",
+"nome": "FreeSerif",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/freefont/FreeSerif.ttf"
+},
+{
+"familia": "freeserif",
+"nome": "FreeSerif",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/freefont/FreeSerifItalic.ttf"
+},
+{
+"familia": "freeserif",
+"nome": "FreeSerif",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/freefont/FreeSerifBold.ttf"
+},
+{
+"familia": "freeserif",
+"nome": "FreeSerif",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/freefont/FreeSerifBoldItalic.ttf"
+},
+{
+"familia": "gelasio",
+"nome": "Gelasio",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/gelasio/Gelasio-Regular.ttf"
+},
+{
+"familia": "gelasio",
+"nome": "Gelasio",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/gelasio/Gelasio-Italic.ttf"
+},
+{
+"familia": "gelasio",
+"nome": "Gelasio",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/gelasio/Gelasio-Bold.ttf"
+},
+{
+"familia": "gelasio",
+"nome": "Gelasio",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/gelasio/Gelasio-BoldItalic.ttf"
+},
+{
+"familia": "inter",
+"nome": "Inter",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/inter/Inter-Regular.otf"
+},
+{
+"familia": "inter",
+"nome": "Inter",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/inter/Inter-Italic.otf"
+},
+{
+"familia": "inter",
+"nome": "Inter",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/inter/Inter-Bold.otf"
+},
+{
+"familia": "inter",
+"nome": "Inter",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/inter/Inter-BoldItalic.otf"
+},
+{
+"familia": "liberationmono",
+"nome": "Liberation Mono",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationMono-Regular.ttf"
+},
+{
+"familia": "liberationmono",
+"nome": "Liberation Mono",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationMono-Italic.ttf"
+},
+{
+"familia": "liberationmono",
+"nome": "Liberation Mono",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationMono-Bold.ttf"
+},
+{
+"familia": "liberationmono",
+"nome": "Liberation Mono",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationMono-BoldItalic.ttf"
+},
+{
+"familia": "liberationsans",
+"nome": "Liberation Sans",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationSans-Regular.ttf"
+},
+{
+"familia": "liberationsans",
+"nome": "Liberation Sans",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationSans-Italic.ttf"
+},
+{
+"familia": "liberationsans",
+"nome": "Liberation Sans",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationSans-Bold.ttf"
+},
+{
+"familia": "liberationsans",
+"nome": "Liberation Sans",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationSans-BoldItalic.ttf"
+},
+{
+"familia": "liberationsansnarrow",
+"nome": "Liberation Sans Narrow",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationSansNarrow-Regular.ttf"
+},
+{
+"familia": "liberationsansnarrow",
+"nome": "Liberation Sans Narrow",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationSansNarrow-Italic.ttf"
+},
+{
+"familia": "liberationsansnarrow",
+"nome": "Liberation Sans Narrow",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationSansNarrow-Bold.ttf"
+},
+{
+"familia": "liberationsansnarrow",
+"nome": "Liberation Sans Narrow",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationSansNarrow-BoldItalic.ttf"
+},
+{
+"familia": "liberationserif",
+"nome": "Liberation Serif",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationSerif-Regular.ttf"
+},
+{
+"familia": "liberationserif",
+"nome": "Liberation Serif",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/liberation/LiberationSerif-Italic.ttf"
+},
+{
+"familia": "liberationserif",
+"nome": "Liberation Serif",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationSerif-Bold.ttf"
+},
+{
+"familia": "liberationserif",
+"nome": "Liberation Serif",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/liberation/LiberationSerif-BoldItalic.ttf"
+},
+{
+"familia": "montserrat",
+"nome": "Montserrat",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/montserrat/Montserrat-Regular.ttf"
+},
+{
+"familia": "montserrat",
+"nome": "Montserrat",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/montserrat/Montserrat-Italic.ttf"
+},
+{
+"familia": "montserrat",
+"nome": "Montserrat",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/montserrat/Montserrat-Bold.ttf"
+},
+{
+"familia": "montserrat",
+"nome": "Montserrat",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/montserrat/Montserrat-BoldItalic.ttf"
+},
+{
+"familia": "opensans",
+"nome": "Open Sans",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/opensans/OpenSans-Regular.ttf"
+},
+{
+"familia": "opensans",
+"nome": "Open Sans",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/opensans/OpenSans-Italic.ttf"
+},
+{
+"familia": "opensans",
+"nome": "Open Sans",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/opensans/OpenSans-Bold.ttf"
+},
+{
+"familia": "opensans",
+"nome": "Open Sans",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/opensans/OpenSans-BoldItalic.ttf"
+},
+{
+"familia": "poppins",
+"nome": "Poppins",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/poppins/Poppins-Regular.ttf"
+},
+{
+"familia": "poppins",
+"nome": "Poppins",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/poppins/Poppins-Italic.ttf"
+},
+{
+"familia": "poppins",
+"nome": "Poppins",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/poppins/Poppins-Bold.ttf"
+},
+{
+"familia": "poppins",
+"nome": "Poppins",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/poppins/Poppins-BoldItalic.ttf"
+},
+{
+"familia": "roboto",
+"nome": "Roboto",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/roboto/Roboto-Regular.ttf"
+},
+{
+"familia": "roboto",
+"nome": "Roboto",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/roboto/Roboto-Italic.ttf"
+},
+{
+"familia": "roboto",
+"nome": "Roboto",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/roboto/Roboto-Bold.ttf"
+},
+{
+"familia": "roboto",
+"nome": "Roboto",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/roboto/Roboto-BoldItalic.ttf"
+},
+{
+"familia": "sourcesans3",
+"nome": "Source Sans 3",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/sourcesans3/SourceSans3-Regular.ttf"
+},
+{
+"familia": "sourcesans3",
+"nome": "Source Sans 3",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/sourcesans3/SourceSans3-Italic.ttf"
+},
+{
+"familia": "sourcesans3",
+"nome": "Source Sans 3",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/sourcesans3/SourceSans3-Bold.ttf"
+},
+{
+"familia": "sourcesans3",
+"nome": "Source Sans 3",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/sourcesans3/SourceSans3-BoldItalic.ttf"
+},
+{
+"familia": "texgyreadventor",
+"nome": "TeX Gyre Adventor",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreadventor-regular.otf"
+},
+{
+"familia": "texgyreadventor",
+"nome": "TeX Gyre Adventor",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreadventor-italic.otf"
+},
+{
+"familia": "texgyreadventor",
+"nome": "TeX Gyre Adventor",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreadventor-bold.otf"
+},
+{
+"familia": "texgyreadventor",
+"nome": "TeX Gyre Adventor",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreadventor-bolditalic.otf"
+},
+{
+"familia": "texgyrebonum",
+"nome": "TeX Gyre Bonum",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyrebonum-regular.otf"
+},
+{
+"familia": "texgyrebonum",
+"nome": "TeX Gyre Bonum",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyrebonum-italic.otf"
+},
+{
+"familia": "texgyrebonum",
+"nome": "TeX Gyre Bonum",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyrebonum-bold.otf"
+},
+{
+"familia": "texgyrebonum",
+"nome": "TeX Gyre Bonum",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyrebonum-bolditalic.otf"
+},
+{
+"familia": "texgyrechorus",
+"nome": "TeX Gyre Chorus",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 500,
+"arquivo": "fontes/tex-gyre/texgyrechorus-mediumitalic.otf"
+},
+{
+"familia": "texgyrecursor",
+"nome": "TeX Gyre Cursor",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyrecursor-regular.otf"
+},
+{
+"familia": "texgyrecursor",
+"nome": "TeX Gyre Cursor",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyrecursor-italic.otf"
+},
+{
+"familia": "texgyrecursor",
+"nome": "TeX Gyre Cursor",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyrecursor-bold.otf"
+},
+{
+"familia": "texgyrecursor",
+"nome": "TeX Gyre Cursor",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyrecursor-bolditalic.otf"
+},
+{
+"familia": "texgyreheros",
+"nome": "TeX Gyre Heros",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreheros-regular.otf"
+},
+{
+"familia": "texgyreheros",
+"nome": "TeX Gyre Heros",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreheros-italic.otf"
+},
+{
+"familia": "texgyreheros",
+"nome": "TeX Gyre Heros",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreheros-bold.otf"
+},
+{
+"familia": "texgyreheros",
+"nome": "TeX Gyre Heros",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreheros-bolditalic.otf"
+},
+{
+"familia": "texgyreheroscn",
+"nome": "TeX Gyre Heros Cn",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreheroscn-regular.otf"
+},
+{
+"familia": "texgyreheroscn",
+"nome": "TeX Gyre Heros Cn",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreheroscn-italic.otf"
+},
+{
+"familia": "texgyreheroscn",
+"nome": "TeX Gyre Heros Cn",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreheroscn-bold.otf"
+},
+{
+"familia": "texgyreheroscn",
+"nome": "TeX Gyre Heros Cn",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreheroscn-bolditalic.otf"
+},
+{
+"familia": "texgyrepagella",
+"nome": "TeX Gyre Pagella",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyrepagella-regular.otf"
+},
+{
+"familia": "texgyrepagella",
+"nome": "TeX Gyre Pagella",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyrepagella-italic.otf"
+},
+{
+"familia": "texgyrepagella",
+"nome": "TeX Gyre Pagella",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyrepagella-bold.otf"
+},
+{
+"familia": "texgyrepagella",
+"nome": "TeX Gyre Pagella",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyrepagella-bolditalic.otf"
+},
+{
+"familia": "texgyreschola",
+"nome": "TeX Gyre Schola",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreschola-regular.otf"
+},
+{
+"familia": "texgyreschola",
+"nome": "TeX Gyre Schola",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyreschola-italic.otf"
+},
+{
+"familia": "texgyreschola",
+"nome": "TeX Gyre Schola",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreschola-bold.otf"
+},
+{
+"familia": "texgyreschola",
+"nome": "TeX Gyre Schola",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyreschola-bolditalic.otf"
+},
+{
+"familia": "texgyretermes",
+"nome": "TeX Gyre Termes",
+"estilo": "regular",
+"negrito": false,
+"italico": false,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyretermes-regular.otf"
+},
+{
+"familia": "texgyretermes",
+"nome": "TeX Gyre Termes",
+"estilo": "italic",
+"negrito": false,
+"italico": true,
+"variavel": false,
+"peso": 400,
+"arquivo": "fontes/tex-gyre/texgyretermes-italic.otf"
+},
+{
+"familia": "texgyretermes",
+"nome": "TeX Gyre Termes",
+"estilo": "bold",
+"negrito": true,
+"italico": false,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyretermes-bold.otf"
+},
+{
+"familia": "texgyretermes",
+"nome": "TeX Gyre Termes",
+"estilo": "bold italic",
+"negrito": true,
+"italico": true,
+"variavel": false,
+"peso": 700,
+"arquivo": "fontes/tex-gyre/texgyretermes-bolditalic.otf"
+}
+]
