@@ -20,14 +20,7 @@ As duas usam as mesmas fontes da pasta `fontes/`.
 
 O app mostra qual fonte foi usada em cada trecho e avisa quando o texto novo ficou mais largo que o original.
 
-### Publicar no GitHub Pages
-
-Cada repositório tem o próprio endereço, então isso não mexe em outro site que já esteja publicado.
-
-1. Crie um repositório público chamado `editor-pdf`
-2. Envie todos os arquivos deste projeto (o envio pelo navegador aceita até 100 arquivos por vez, então mande a pasta `fontes/` em duas partes, ou use o GitHub Desktop)
-3. Vá em **Settings > Pages**, escolha **Deploy from a branch**, branch `main`, pasta `/ (root)` e salve
-4. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/editor-pdf/`
+O app é publicado pelo GitHub Pages em https://thalissakezia.github.io/editor-pdf/ (Settings > Pages, branch `main`, pasta raiz).
 
 ### Instalar no Android
 
@@ -35,7 +28,7 @@ Abra o endereço no Chrome, toque nos três pontinhos e em **Instalar app** (ou 
 
 ## Script em Python
 
-## Como a fonte é escolhida
+### Como a fonte é escolhida
 
 O script tenta nesta ordem:
 
@@ -45,9 +38,7 @@ O script tenta nesta ordem:
 4. Fontes equivalentes do arquivo `fontes_alias.json` (ex.: Calibri → Carlito, Arial → Liberation Sans)
 5. Fontes padrão do PDF (Helvetica, Times, Courier), respeitando negrito e itálico
 
-Se o texto original estiver em negrito ou itálico e a fonte encontrada não tiver essa versão, o script simula o efeito: engrossa as letras (negrito) ou inclina (itálico). No terminal aparece quando isso acontece.
-
-No terminal aparece qual fonte foi usada em cada troca.
+Se o texto original estiver em negrito ou itálico e a fonte encontrada não tiver essa versão, o script simula o efeito: engrossa as letras (negrito) ou inclina (itálico). No terminal aparece qual fonte foi usada em cada troca e quando o efeito foi simulado.
 
 ## Fontes incluídas
 
